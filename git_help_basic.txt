@@ -1,0 +1,41 @@
+Steps
+
+Q) What is Git?
+
+A) Git is a version control software.
+
+NOTES:
+
+	- origin/master is the branch that is on the git server on the internet.
+	- master is your local branch.
+
+1) To download a repository -
+
+	cd <directory_where_you_want_it_to_be>
+	git clone https://github.com/aritrakundu99/vessel_extraction.git
+
+   A folder with the git repository name will be created.
+
+2) Check the status of your repository -
+
+	git status
+
+3) Add new/modified files to the repository -
+
+	git add <path_to_file>
+
+4) Commit your changes -
+
+	git commit -m "commit notes"
+
+5) Push your changes to the git server -
+
+	git push origin <branch-name>
+	
+6) To get the latest git repository, use pull -
+
+	git pull origin <branch-name>
+
+7) To remove a deleted file from the git repository -
+
+	git rm <path_to_file>
